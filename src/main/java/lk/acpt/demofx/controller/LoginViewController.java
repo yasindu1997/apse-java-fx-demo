@@ -29,7 +29,7 @@ public class LoginViewController {
         Stage stage = (Stage) this.root.getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("home-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Home Page");
+        stage.setTitle("Home");
         stage.setScene(scene);
     }
 }
